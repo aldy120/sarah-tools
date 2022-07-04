@@ -1,0 +1,26 @@
+{
+  "name": "sarah-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldy120/sarah-tools.git"
+  },
+  "author": "Lichi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldy120/sarah-tools/issues"
+  },
+  "homepage": "https://github.com/aldy120/sarah-tools#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
