@@ -19,4 +19,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_REGION }}
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync --delete ./dist s3://${{ secrets.AWS_S3_BUCKET }} 
+      run: aws s3 sync --delete ./prod s3://${{ secrets.AWS_S3_BUCKET }} 
