@@ -23,4 +23,4 @@ jobs:
     - name: Build artifact
       run: npm run build
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync --delete ./build s3://${{ secrets.AWS_S3_BUCKET }} 
+      run: aws s3 sync --delete . s3://${{ secrets.AWS_S3_BUCKET }} 
